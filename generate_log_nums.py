@@ -12,7 +12,7 @@ def random_ending():
     
 def mach_beg():
     rand_beg_num = str(randint(2,20))
-    main_beg = '1T'
+    main_beg = '1X'
     rand_num = str(randint(1, 99999))
     rand_char = choices(string.ascii_uppercase, k =1)[0]
     return str.join('', (rand_beg_num , rand_char , rand_num.zfill(5))), str.join( '', (main_beg , rand_num.zfill(5)))
